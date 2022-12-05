@@ -78,7 +78,7 @@ int main() {
 	printf("Ingrese el número a buscar: ");
 	scanf("%d", &n);
 	
-    nivel = buscarEnArbol(nd, n);
+    	nivel = buscarEnArbol(nd, n);
 
 	if (nivel > 0)
 		printf("\nEl número %d esta en el nivel: %d  \n",n, nivel);
